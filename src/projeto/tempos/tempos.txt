@@ -1,0 +1,56 @@
+            TESTE DE TEMPOS
+------------------------------------
+|     FUNÇÃO    |       TEMPO(ns)  |
+------------------------------------
+-       VETOR SIZE 10              -
+| bubbleSort    |           21.100 |
+| insertSort    |           14.000 |
+| shellSort     |           17.700 |
+| mergeSort     |           21.400 |
+| quickSort     |           14.200 |
+| selectionSort |           24.900 |
+
+-       VETOR SIZE 1.000           -
+| bubbleSort    |       10.423.700 |
+| insertSort    |        7.599.500 |
+| shellSort     |        6.266.100 |
+| mergeSort     |        1.101.700 |
+| quickSort     |          951.700 |
+| selectionSort |        6.509.900 |
+
+-       VETOR SIZE 10.000          -
+| bubbleSort    |      286.715.900 |
+| insertSort    |       79.751.800 |
+| shellSort     |       34.325.800 |
+| mergeSort     |        1.436.100 |
+| quickSort     |        1.449.600 |
+| selectionSort |      196.456.300 |
+
+-       VETOR SIZE 100.000         -
+| bubbleSort    |   18.233.282.400 |
+| insertSort    |    4.924.219.300 |
+| shellSort     |    1.334.543.700 |
+| mergeSort     |       12.592.500 |
+| quickSort     |        7.217.700 |
+| selectionSort |   16.806.028.100 |
+
+-       VETOR SIZE 1.000.000       -
+| bubbleSort    |        2.622.500 |
+| insertSort    |  499.053.440.600 |
+| shellSort     |  127.935.385.100 |
+| mergeSort     |      129.214.400 |
+| quickSort     |       75.503.400 |
+| selectionSort |        2.959.700 |
+
+Todos os métodos foram utilizados para listas completamente aleatórias com o tempo medido em nanossegundos.
+Os métodos do mais rápido para o menos foram:
+quickSort
+mergeSort
+shellSort
+insertSort
+selectionSort
+bubbleSort
+
+Para os vetores de tamanho 1.000.000, eu não rodei o bubbleSort nem o selectionSort
+por serem métodos muito lentos e levarem tanto tempo que nem dava para terminar de executar tudo.
+Travava no bubbleSort.
